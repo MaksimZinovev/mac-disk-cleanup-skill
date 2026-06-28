@@ -15,7 +15,13 @@ Install the skill in Pi, then ask:
 - `SKILL.md` — workflow and patterns
 - `scripts/cleanup_music_mp3_duplicates.sh` — `.mp3`/`.m4a` duplicate cleanup script
 
-Run the script standalone:
+## Helpful tools
+
+- [dupeguru](https://dupeguru.voltaicideas.net) — cross-platform duplicate finder
+- [Czkawka](https://github.com/qarmin/czkawka) — fast duplicate finder with CLI and GUI
+- `fd`, `du`, `df` — command-line helpers for scanning disk usage
+
+Run the bundled script standalone:
 
 ```bash
 ./scripts/cleanup_music_mp3_duplicates.sh --dry-run ~/Music
